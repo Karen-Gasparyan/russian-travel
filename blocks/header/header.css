@@ -1,0 +1,9 @@
+.header {
+    max-width: 1184px;
+    max-height: 52px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content;
+    justify-content: space-between;
+}
