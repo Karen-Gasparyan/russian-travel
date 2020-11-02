@@ -17,15 +17,10 @@
   }
 
 .page {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     max-width: 1280px;
     margin: 0 auto;
     background-color: #2A2C2F;
-    padding: 28px 0 0 0;
     overflow: hidden;
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    max-width: 100%;
-  }
 }

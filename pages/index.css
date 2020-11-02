@@ -4,6 +4,9 @@
 
 /* wrapper-page */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/__footer/page__footer.css);
 /* /wrapper-page */
 
 /* header */
@@ -14,8 +17,14 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 /* /header */
 
+/* content */
+/*@import url(../blocks/content/content.css); not active*/
+/*@import url(../blocks/page/__content/page__content.css); not active*/
+/* /content */
+
 /* lead */
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/content/__lead/content__lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
@@ -24,6 +33,7 @@
 
 /* intro */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/content/__intro/content__intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
@@ -31,12 +41,16 @@
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/content/__photo-grid/content__photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* /photo-grid */
 
 /* places */
 @import url(../blocks/places/places.css);
+@import url(../blocks/content/__places/content__places.css);
+@import url(../blocks/places/__item/places__item.css);
 /* /places */
+
 /* place */
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
@@ -48,28 +62,19 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 /* /place */
 
-@import url();
+/* cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/content/__cover/content__cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__link/cover__link.css);
+/* /cover */
 
-
-
-/*
-@media screen and (max-width: 1280px) {
-
-}
-
-@media screen and (max-width: 1024px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 425px) {
-
-}
-
-@media screen and (max-width: 320px) {
-
-}
-*/
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+/* /footer */
