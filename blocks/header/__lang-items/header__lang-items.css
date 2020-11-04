@@ -2,10 +2,6 @@
     margin: 0 18px 0 0;
 }
 
-.header__lang-items:first-child {
-    border-bottom: 2px solid #fff;
-}
-
 .header__lang-items:last-child {
     margin: 0;
 }

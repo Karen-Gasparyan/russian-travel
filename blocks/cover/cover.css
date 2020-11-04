@@ -1,34 +1,5 @@
 .cover {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background: url(../../images/cover-trains.jpg) center / cover;
-    position: relative;
 }
 
-.cover:hover {
-    cursor: pointer;
-}
-
-.cover::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #2A2C2F;
-    opacity: .3;
-    transition: .5s;
-}
-
-.cover:hover::before {
-    opacity: .8;
-}
-
-@media screen and (max-width: 768px) {
-    .cover:hover::before {
-        opacity: .3;
-    }
-}

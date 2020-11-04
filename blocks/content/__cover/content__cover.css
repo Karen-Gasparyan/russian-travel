@@ -1,24 +1,4 @@
 .content__cover {
     max-width: 1184px;
-    min-height: 740px;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 1024px) {
-    .content__cover {
-        width: 100%;
-        min-height: 640px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .content__cover {
-        min-height: 480px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .content__cover {
-        min-height: 200px;
-    }
+    width: 100%;
 }

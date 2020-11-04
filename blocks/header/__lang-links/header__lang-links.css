@@ -1,7 +1,5 @@
 .header__lang-links {
     list-style-type: none;
-    min-width: 77px;
-    max-height: 28px;
     padding: 0;
     margin: 18px 0 0 0;
     display: flex;
@@ -9,8 +7,6 @@
 
 @media screen and (max-width: 320px) {
     .header__lang-links {
-        min-width: 62px;
-        max-height: 20px;
         margin: 14px 0 0 0;
     }
 }
