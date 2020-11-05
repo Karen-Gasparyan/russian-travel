@@ -1,23 +1,23 @@
 .content__photo-grid {
-    max-width: 1184px;
-    width: 100%;
-    margin: auto;
+  max-width: 1184px;
+  width: 100%;
+  margin: auto;
 }
 
 @media screen and (max-width: 1024px) {
-    .content__photo-grid {
-        max-width: 928px;
-    }
+  .content__photo-grid {
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .content__photo-grid {
-        max-width: 720px;
-    }
+  .content__photo-grid {
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-    .content__photo-grid {
-        max-width: 288px;
-    }
+  .content__photo-grid {
+    max-width: 288px;
+  }
 }

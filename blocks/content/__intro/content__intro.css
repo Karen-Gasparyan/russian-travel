@@ -1,20 +1,26 @@
 .content__intro {
-    margin: 92px 0;
-    max-width: 690px;
-    width: 100%;
+  max-width: 984px;
+  width: 100%;
+  margin: 92px auto;
 }
 
-@media screen and (max-width: 768px) {
-    .content__intro {
-        max-width: 720px;
-        margin-top: 88px;
-        margin-bottom: 88px;
-    }
+@media (max-width: 1024px) {
+  .content__intro {
+    max-width: 928px;
+  }
 }
+
+@media (max-width: 768px) {
+  .content__intro {
+    max-width: 720px;
+    margin: 88px auto;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
-    .content__intro {
-        margin: 64px auto;
-        max-width: 288px;
-    }
+  .content__intro {
+    margin: 64px auto;
+    max-width: 288px;
+  }
 }

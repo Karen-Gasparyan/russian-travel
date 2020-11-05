@@ -1,4 +1,10 @@
 .content__lead {
-    max-width: 984px;
-    margin: 0 auto;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .content__lead {
+    max-width: 928px;
+  }
 }

@@ -1,21 +1,23 @@
 .place__link {
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    transition: .5s;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  transition: .5s;
 }
 
-.place__link:hover {
+@media (min-width: 1024px) {
+  .place__link:hover {
     opacity: .8;
     cursor: pointer;
+    transition: .5s;
+  }
 }
 
-@media screen and (max-width: 767px) {
-    .place__link {
-        display: none;
-    }
+@media (max-width: 767px) {
+  .place__link {
+    display: none;
+  }
 }

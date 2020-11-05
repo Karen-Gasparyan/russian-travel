@@ -1,26 +1,25 @@
 .page__footer {
-    max-width: 1184px;
-    min-height: 18px;
-    margin: 92px auto 0;
+  max-width: 1184px;
+  margin: 92px auto 0;
 }
 
 @media screen and (max-width: 1024px) {
-    .page__footer {
-        max-width: 928px;
-    }
+  .page__footer {
+    max-width: 928px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .page__footer {
-        max-width: 720px;
-        margin-top: 88px;
-    }
+  .page__footer {
+    max-width: 720px;
+    margin-top: 88px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .page__footer {
-        max-width: 186px;
-        margin-top: 64px;
-        margin-left: 16px;
-    }
+  .page__footer {
+    max-width: 186px;
+    margin-top: 64px;
+    margin-left: 16px;
+  }
 }
