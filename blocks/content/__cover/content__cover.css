@@ -1,4 +1,22 @@
 .content__cover {
-  max-width: 1184px;
+  margin: 0 auto 64px;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .content__cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content__cover {
+    margin-bottom: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content__cover {
+    max-width: 1184px;
+  }
 }

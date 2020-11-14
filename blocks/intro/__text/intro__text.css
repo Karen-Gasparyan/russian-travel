@@ -1,15 +1,20 @@
 .intro__text {
-  max-width: 690px;
-  margin: 40px 0 33px;
-  font-style: normal;
+  width: 100%;
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
   color: #FFFFFF;
+  margin: 0 0 33px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
   .intro__text {
-    max-width: 100%;
+    max-width: calc((720 / 768) * 100%);
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro__text {
+    max-width: calc((690 / 928) * 100%);
   }
 }

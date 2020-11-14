@@ -1,17 +1,22 @@
 .intro__list {
-  max-width: 690px;
   list-style-type: none;
-  padding: 0;
   margin: 0;
-  font-style: normal;
+  padding: 0;
+  width: 100%;
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
   .intro__list {
-    max-width: 100%;
+    max-width: calc((720 / 768) * 100%);
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro__list {
+    max-width: calc((690 / 928) * 100%);
   }
 }

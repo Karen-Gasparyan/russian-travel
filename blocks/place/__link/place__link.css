@@ -1,5 +1,4 @@
 .place__link {
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
@@ -8,16 +7,9 @@
   transition: .5s;
 }
 
+
 @media (min-width: 1024px) {
   .place__link:hover {
     opacity: .8;
-    cursor: pointer;
-    transition: .5s;
-  }
-}
-
-@media (max-width: 767px) {
-  .place__link {
-    display: none;
   }
 }

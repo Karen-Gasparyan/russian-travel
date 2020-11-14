@@ -1,10 +1,23 @@
 .content__lead {
-  max-width: 984px;
-  margin: 0 auto;
+  margin: 0 auto 64px;
+  width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
   .content__lead {
-    max-width: 928px;
+    margin-bottom: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content__lead {
+    max-width: calc((928 / 1024) * 100%);
+    margin-bottom: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content__lead {
+    max-width: 984px;
   }
 }

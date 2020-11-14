@@ -1,15 +1,14 @@
 .page {
-  font-family: Inter, Arial, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  background-color: #2A2C2F;
-  padding-top: 28px;
-  padding-bottom: 24px;
+  background: #2A2C2F;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
   min-width: 320px;
+  padding: 16px 0 24px 0;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 768px) {
   .page {
-    padding-top: 16px;
+    padding-top: 28px;
   }
 }
